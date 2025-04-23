@@ -34,5 +34,4 @@ Este repositorio contiene un **manual práctico sobre el uso del Inspector de El
 
 ---
 
-## 📁 Estructura del proyecto
 
