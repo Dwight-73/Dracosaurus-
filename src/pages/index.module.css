@@ -1,0 +1,35 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilo claro (modo normal) */
+.button--secondary {
+  background-color: #4e8cff;
+  color: white;
+}
+
+/* Estilo oscuro */
+html[data-theme='dark'] .button--secondary {
+  background-color: #ff6b6b;
+  color: black;
+}
