@@ -1,41 +1,38 @@
-# Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+# 🕵️ Manual de Inspector de Elementos
 
-### Installation
+Este repositorio contiene un **manual práctico sobre el uso del Inspector de Elementos**, una herramienta fundamental para desarrolladores web y curiosos que desean explorar, editar y entender el código fuente de páginas web en tiempo real.
 
-```
-$ yarn
-```
+---
 
-### Local Development
+## 📘 Contenido del manual
 
-```
-$ yarn start
-```
+- ✅ ¿Qué es el inspector de elementos?
+- 🔍 Cómo acceder al inspector en distintos navegadores (Chrome, Firefox, Edge)
+- 🧱 Exploración del HTML y el DOM
+- 🎨 Modificación de estilos CSS en vivo
+- 🧪 Edición de texto y estructura directamente desde el navegador
+- 🛠️ Uso de la consola para pruebas rápidas con JavaScript
+- 📦 Recursos útiles y atajos de teclado
+- 🚫 Buenas prácticas y advertencias al usar esta herramienta
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+---
 
-### Build
+## 💡 ¿Para qué sirve?
 
-```
-$ yarn build
-```
+- Visualizar cómo está estructurado el código HTML de una web
+- Modificar estilos visuales sin afectar el sitio real
+- Depurar errores de diseño y comportamiento
+- Aprender cómo están hechas páginas web de forma interactiva
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+---
 
-### Deployment
+## ⚙️ Tecnologías utilizadas
 
-Using SSH:
+- Navegadores modernos (Chrome DevTools, Firefox DevTools, etc.)
+- HTML5, CSS3 y JavaScript para ejemplos interactivos
 
-```
-$ USE_SSH=true yarn deploy
-```
+---
 
-Not using SSH:
+## 📁 Estructura del proyecto
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
